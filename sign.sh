@@ -22,7 +22,7 @@ fi
 
 if [ -f "$EXE_ORIGINAL" ]; then
     echo "🔹 Firmando $EXE_ORIGINAL..."
-    osslsigncode sign -pkcs12 "$CERT" -pass "$CERT_PASS" -n "Mi Programa" -i "https://miweb.com" \
+    osslsigncode sign -pkcs12 "$CERT" -pass "$CERT_PASS" -n "My test program" -i "https://randomweb.com" \
     -ts http://timestamp.digicert.com -in "$EXE_ORIGINAL" -out "temp_signed.exe"
 
     mv "temp_signed.exe" "$EXE_ORIGINAL"
