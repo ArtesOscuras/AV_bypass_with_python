@@ -7,7 +7,7 @@ This project is a simple ofuscator for python scripts. Also include a couple of 
 Instructions to proceed:
 ```bash
 # Clone rep
-git clone https://
+git clone https://github.com/ArtesOscuras/AV_bypass_with_python.git
 
 # Go inside
 cd AV_bypass_with_python
