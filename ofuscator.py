@@ -3,7 +3,7 @@ import sys
 import random
 import os
 
-iterations = 7
+iterations = 6
 
 def get_libraris(file):
     with open(file, "r", encoding="utf-8") as f:
