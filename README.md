@@ -14,6 +14,9 @@ cd AV_bypass_with_python
 
 # Install dependencies
 sudo apt install wine
+wget https://www.python.org/ftp/python/3.9.0/python-3.9.0-amd64.exe
+wine python-3.9.0-amd64.exe
+wine pip install pyinstaller
 sudo apt install osslsigncode
 ```
 
