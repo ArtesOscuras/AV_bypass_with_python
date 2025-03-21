@@ -25,6 +25,9 @@ Example how tu use it:
 ```bash
 python3 ofuscator.py mininetcat.py #(or any other python script you want to ofuscate)
 
+# IMPORTANT NOTE: Use the command WINECFG to set your wine, in a Windows Vista, or any old windows before compile your script.
+This simple trick will safe you from hundreds of incompatibility problems.
+
 chmod +x compile.sh
 ./compile.sh mininetcat.py
 
